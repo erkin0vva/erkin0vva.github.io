@@ -2,7 +2,7 @@ body {
     padding: 10px 30px;
     margin: 0;
     height: 100vh;
-    background-color: lightgrey;
+    background-color: rgb(20, 247, 66);
     font-size: 24px;
     font-family: monospace;
 }
@@ -85,7 +85,7 @@ a.PAGE:active {
     
     p{
         width: 100%;
-        color: blueviolet;
+        color: rgb(70, 43, 226);
     }
 }
 
