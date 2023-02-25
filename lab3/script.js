@@ -2,7 +2,8 @@ function createDorama(title, director, duration) {
     const dorama = {
         title: title,
         director: director,
-        duration: duration
+        duration: duration,
+
     }
 
     return dorama; 
@@ -20,10 +21,10 @@ function averageDuration(doramas) {
 }
 
 let doramas = []
-let tempDorama = createDorama("Connect", "Kung Woo Jung", 120);
+let tempDorama = createDorama("Scarlet Hearts: Goryeo", "Kim Kyu-tae", 1200);
 doramas.push(tempDorama); 
 
-tempDorama = createDorama("Island", "Kun Jeong Peo", 150);
+tempDorama = createDorama("Mouse", "Choi Ran", 1300);
 doramas.push(tempDorama); 
 
 let avgDurationOfDoramas = averageDuration(doramas);
